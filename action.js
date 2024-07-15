@@ -32,7 +32,7 @@ function validateGuess(guess){
     }
     else{
         prevGuess.push(guess);
-        if(numGuess===3){
+        if(numGuess===4){
             displayGuess(guess);
             displayMessage(`Game Over! Random number was ${randomNumber}`);
             endgame();
